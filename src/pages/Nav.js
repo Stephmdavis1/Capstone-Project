@@ -1,9 +1,10 @@
 import logo from "../icons_assets/Logo.svg"
+import "../components/Nav/Nav.css"
 
 function Nav() {
     return (
       <>
-        <section>
+        <section className="nav_section">
             <img src={logo} alt="" />
         <ul>
             <li><a href="/">Home</a></li>

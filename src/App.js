@@ -1,13 +1,13 @@
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Main from './components/Main';
-import Nav from './components/Nav';
+import Footer from './pages/Footer';
+import Header from './pages/Header';
+import Main from './pages/Main';
+import Nav from './pages/Nav';
 
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Nav />
       <Main />
       <Footer />
